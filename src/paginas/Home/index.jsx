@@ -1,7 +1,12 @@
 import React from 'react'
+import Banner from 'componentes/Banner'
 
 export default function Inicio() {
   return (
-    <h1>Its hooome</h1>
+    <main>
+      <Banner />
+
+      <h1>Hey there!</h1>
+    </main>
   )
 }

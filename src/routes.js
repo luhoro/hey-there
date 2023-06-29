@@ -1,11 +1,15 @@
 import Home from './paginas/Home'
 import AboutMe from './paginas/AboutMe'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Menu from './componentes/Menu'
 
 
-function App() {
+function AppRoutes() {
   return (
     <BrowserRouter>
+      
+      <Menu />
+
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/aboutme' element={<AboutMe />} />
@@ -15,4 +19,4 @@ function App() {
   )
 }
 
-export default App
+export default AppRoutes

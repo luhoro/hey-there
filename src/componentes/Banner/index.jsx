@@ -12,7 +12,7 @@ export default function Banner() {
         </h1>
 
         <p className={styles.paragrafo}>
-          Boas vindas ao meu portfólio! Eu sou a Luisa Horowitz, estudante em Análise e Desenvolvimento de Sistemas na Descomplica, e Desenvolvedora FrontEnd. 
+          Boas vindas ao meu portfólio! Eu sou a Luisa Horowitz, desenvolvedora web frontend. 
         </p>
       </div>
 
@@ -21,6 +21,7 @@ export default function Banner() {
           className={styles.circulo}
           src={circulo}
           aria-hidden={true}
+          alt=""
         />
         
         <img

@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Menu from './componentes/Menu'
 import Footer from 'componentes/Footer'
 import MainPage from 'componentes/MainPage'
+import Post from 'paginas/Post'
 
 function AppRoutes() {
   return (
@@ -14,6 +15,7 @@ function AppRoutes() {
         <Route path='/' element={<MainPage />}>
           <Route index element={<Home />} />
           <Route path="aboutme" element={<AboutMe />} />
+          <Route path="posts/:id" element={<Post />} />
         </Route>
 
         <Route path="*" element={<h1>Page not found</h1>} />

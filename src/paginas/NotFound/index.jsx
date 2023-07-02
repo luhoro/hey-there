@@ -26,7 +26,7 @@ export default function NotFound() {
 
         <div
           className={styles.botaoContainer}
-          onClick={() => navegar('/')}
+          onClick={ () => navegar('/') }
         >
           <ButtonMain tamanho="lg">
             Voltar
